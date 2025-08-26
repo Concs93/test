@@ -1,0 +1,46 @@
+2024-07-18  8:12:33 0 [Note] w:\modules\database\MariaDB-10.4\bin\mysqld.exe (mysqld 10.4.19-MariaDB-log) starting as process 23504 ...
+2024-07-18  8:12:33 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2024-07-18  8:12:33 0 [Note] InnoDB: Uses event mutexes
+2024-07-18  8:12:33 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2024-07-18  8:12:33 0 [Note] InnoDB: Number of pools: 1
+2024-07-18  8:12:33 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2024-07-18  8:12:33 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2024-07-18  8:12:33 0 [Note] InnoDB: Completed initialization of buffer pool
+2024-07-18  8:12:34 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2024-07-18  8:12:34 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2024-07-18  8:12:34 0 [Note] InnoDB: Setting file 'w:\userdata\MariaDB-10.4\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2024-07-18  8:12:34 0 [Note] InnoDB: File 'w:\userdata\MariaDB-10.4\ibtmp1' size is now 12 MB.
+2024-07-18  8:12:34 0 [Note] InnoDB: Waiting for purge to start
+2024-07-18  8:12:35 0 [Note] InnoDB: 10.4.19 started; log sequence number 145492; transaction id 318
+2024-07-18  8:12:35 0 [Note] InnoDB: Loading buffer pool(s) from w:\userdata\MariaDB-10.4\ib_buffer_pool
+2024-07-18  8:12:35 0 [Note] Plugin 'FEEDBACK' is disabled.
+2024-07-18  8:12:35 0 [Note] Server socket created on IP: '127.0.0.1'.
+2024-07-18  8:12:35 0 [ERROR] InnoDB: Page [page id: space=11, page number=3] log sequence number 844754366 is in the future! Current system log sequence number 145501.
+2024-07-18  8:12:35 0 [ERROR] InnoDB: Your database may be corrupt or you may have copied the InnoDB tablespace but not the InnoDB log files. Please refer to https://mariadb.com/kb/en/library/innodb-recovery-modes/ for information about forcing recovery.
+2024-07-18  8:12:35 0 [ERROR] InnoDB: Page [page id: space=11, page number=4] log sequence number 844754339 is in the future! Current system log sequence number 145501.
+2024-07-18  8:12:35 0 [ERROR] InnoDB: Your database may be corrupt or you may have copied the InnoDB tablespace but not the InnoDB log files. Please refer to https://mariadb.com/kb/en/library/innodb-recovery-modes/ for information about forcing recovery.
+2024-07-18  8:12:35 0 [Note] InnoDB: Buffer pool(s) load completed at 240718  8:12:35
+2024-07-18  8:12:36 0 [Note] Reading of all Master_info entries succeeded
+2024-07-18  8:12:36 0 [Note] Added new Master_info '' to hash table
+2024-07-18  8:12:36 0 [Note] w:\modules\database\MariaDB-10.4\bin\mysqld.exe: ready for connections.
+Version: '10.4.19-MariaDB-log'  socket: ''  port: 3306  mariadb.org binary distribution
+2024-07-18  8:19:00 9 [ERROR] InnoDB: Transaction id 0x67fdbe2 associated with recordCOMPACT RECORD(info_bits=0, 2 fields): {[4]    (0x00000312),[6]     F(0x000000001946)} in index `char_id` of table `rathena_re_db`.`bonus_script` is greater than the global counter 321! The table is corrupted.
+2024-07-18  8:20:30 9 [ERROR] InnoDB: Transaction id 0x67fdbe2 associated with recordCOMPACT RECORD(info_bits=0, 2 fields): {[4]    (0x00000312),[6]     F(0x000000001946)} in index `char_id` of table `rathena_re_db`.`bonus_script` is greater than the global counter 322! The table is corrupted.
+2024-07-18  8:22:00 9 [ERROR] InnoDB: Transaction id 0x67fdbe2 associated with recordCOMPACT RECORD(info_bits=0, 2 fields): {[4]    (0x00000312),[6]     F(0x000000001946)} in index `char_id` of table `rathena_re_db`.`bonus_script` is greater than the global counter 323! The table is corrupted.
+2024-07-18  8:23:30 9 [ERROR] InnoDB: Transaction id 0x67fdbe2 associated with recordCOMPACT RECORD(info_bits=0, 2 fields): {[4]    (0x00000312),[6]     F(0x000000001946)} in index `char_id` of table `rathena_re_db`.`bonus_script` is greater than the global counter 324! The table is corrupted.
+2024-07-18  8:25:00 9 [ERROR] InnoDB: Transaction id 0x67fdbe2 associated with recordCOMPACT RECORD(info_bits=0, 2 fields): {[4]    (0x00000312),[6]     F(0x000000001946)} in index `char_id` of table `rathena_re_db`.`bonus_script` is greater than the global counter 325! The table is corrupted.
+2024-07-18  8:26:30 9 [ERROR] InnoDB: Transaction id 0x67fdbe2 associated with recordCOMPACT RECORD(info_bits=0, 2 fields): {[4]    (0x00000312),[6]     F(0x000000001946)} in index `char_id` of table `rathena_re_db`.`bonus_script` is greater than the global counter 326! The table is corrupted.
+2024-07-18  8:27:07 9 [ERROR] InnoDB: Transaction id 0x67fdbe2 associated with recordCOMPACT RECORD(info_bits=0, 2 fields): {[4]    (0x00000312),[6]     F(0x000000001946)} in index `char_id` of table `rathena_re_db`.`bonus_script` is greater than the global counter 327! The table is corrupted.
+2024-07-18  8:54:15 9 [ERROR] InnoDB: Transaction id 0x67fdbe2 associated with recordCOMPACT RECORD(info_bits=0, 2 fields): {[4]    (0x00000312),[6]     F(0x000000001946)} in index `char_id` of table `rathena_re_db`.`bonus_script` is greater than the global counter 328! The table is corrupted.
+2024-07-18  8:55:45 9 [ERROR] InnoDB: Transaction id 0x67fdbe2 associated with recordCOMPACT RECORD(info_bits=0, 2 fields): {[4]    (0x00000312),[6]     F(0x000000001946)} in index `char_id` of table `rathena_re_db`.`bonus_script` is greater than the global counter 329! The table is corrupted.
+2024-07-18  8:56:01 9 [ERROR] InnoDB: Transaction id 0x67fdbe2 associated with recordCOMPACT RECORD(info_bits=0, 2 fields): {[4]    (0x00000312),[6]     F(0x000000001946)} in index `char_id` of table `rathena_re_db`.`bonus_script` is greater than the global counter 330! The table is corrupted.
+2024-07-18 10:37:03 0 [Note] w:\modules\database\MariaDB-10.4\bin\mysqld.exe (initiated by: unknown): Normal shutdown
+2024-07-18 10:37:03 0 [Note] Event Scheduler: Purging the queue. 0 events
+2024-07-18 10:37:03 0 [Note] InnoDB: FTS optimize thread exiting.
+2024-07-18 10:37:03 0 [Note] InnoDB: Starting shutdown...
+2024-07-18 10:37:03 0 [Note] InnoDB: Dumping buffer pool(s) to w:\userdata\MariaDB-10.4\ib_buffer_pool
+2024-07-18 10:37:03 0 [Note] InnoDB: Buffer pool(s) dump completed at 240718 10:37:03
+2024-07-18 10:37:04 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2024-07-18 10:37:04 0 [Note] InnoDB: Shutdown completed; log sequence number 145501; transaction id 330
+2024-07-18 10:37:04 0 [Note] w:\modules\database\MariaDB-10.4\bin\mysqld.exe: Shutdown complete
+
